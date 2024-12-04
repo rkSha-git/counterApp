@@ -1,0 +1,56 @@
+.background{
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    background-image: url('background.jpeg');
+    background-position: center;
+    background-size: cover;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0 0 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div h1{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom:15px;
+}
+div h2{
+    font-size: 80px;
+    margin: 0;
+    margin-bottom:13px;
+}
+button{
+    font-size: 18px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+#increment{
+    margin-bottom: 10px;
+    padding: 13px 54px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(10, 173, 10);
+}
+#save{
+    margin-bottom: 10px;
+    padding: 13px 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(22, 22, 196);
+}
+#reset, #clear{
+    border-radius: 5px;
+    padding: 13px 25px;
+    border: none;
+    background-color: rgb(230, 0, 0);
+}
+#prev{
+    font-size: 18px;
+    font-weight: bold;
+}
